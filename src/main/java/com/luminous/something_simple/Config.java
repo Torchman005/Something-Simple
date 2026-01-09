@@ -1,4 +1,4 @@
-package com.luminous.somthing_simple;
+package com.luminous.something_simple;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Neo's config APIs
-@EventBusSubscriber(modid = Somthing_simple.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = Something_simple.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class Config
 {
     private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();

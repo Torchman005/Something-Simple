@@ -1,0 +1,10 @@
+{
+  "plus_song": {
+    "sounds": [
+    {
+      "name": "something_simple:plus_song",
+      "stream": true
+    }
+    ]
+  }
+}

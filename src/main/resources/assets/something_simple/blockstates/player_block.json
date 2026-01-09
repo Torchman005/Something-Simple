@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "something_simple:block/player_block"
+    }
+  }
+}
