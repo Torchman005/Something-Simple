@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "something_simple:charred_iron_block",
+    "something_simple:player_block"
+  ]
+}

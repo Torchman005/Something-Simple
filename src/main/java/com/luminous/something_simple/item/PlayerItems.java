@@ -16,6 +16,9 @@ public class PlayerItems {
 
     public static final DeferredItem<Item> PlUS_SONG_MUSIC_DISC = PLAYER_ITEMS.register("plus_song_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(CustomDisc.PLUS_SONG_KEY).stacksTo(1)));
+
+    public static final DeferredItem<Item> CHARRED_IRON_INGOT = PLAYER_ITEMS.register("charred_iron_ingot",
+            () -> new Item(new Item.Properties()));
 // 注册到mod事件总线
     public static void register(IEventBus eventBus) {
         PLAYER_ITEMS.register(eventBus);

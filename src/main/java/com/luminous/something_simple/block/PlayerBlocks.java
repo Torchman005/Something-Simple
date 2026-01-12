@@ -2,7 +2,6 @@ package com.luminous.something_simple.block;
 
 import com.luminous.something_simple.Something_simple;
 import com.luminous.something_simple.item.PlayerItems;
-import net.minecraft.BlockUtil;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -22,11 +21,16 @@ public class PlayerBlocks {
     public static final DeferredBlock<Block> PLAYER_BLOCK = registerBlock("player_block",
             // () -> DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of())
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4.0F, 8.0F)
+                    .strength(5.0F, 6.0F)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
-                    .explosionResistance(6.0f)
                     .lightLevel(state -> 15)
+    ));
+
+    public static final DeferredBlock<Block> CHARRED_IRON_BLOCK = registerBlock("charred_iron_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 6.0F)
+                    .requiresCorrectToolForDrops()
     ));
 
     // 注册方块工具方法

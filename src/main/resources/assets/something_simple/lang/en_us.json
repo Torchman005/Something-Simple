@@ -1,7 +1,9 @@
 {
   "item.something_simple.player_starter": "Player Starter",
+  "item.something_simple.charred_iron_ingot": "Charred Iron Ingot",
 
   "block.something_simple.player_block": "Player Block",
+  "block.something_simple.charred_iron_block": "Charred Iron Block",
 
   "creativetab.something_simple.something_simple_items": "Something Simple Items",
   "creativetab.something_simple.something_simple_blocks": "Something Simple Blocks",

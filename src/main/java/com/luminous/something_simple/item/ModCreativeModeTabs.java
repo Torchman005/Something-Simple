@@ -22,6 +22,8 @@ public class ModCreativeModeTabs {
                         output.accept(PlayerItems.PLAYER_STARTER);
 
                         output.accept(PlayerItems.PlUS_SONG_MUSIC_DISC);
+
+                        output.accept(PlayerItems.CHARRED_IRON_INGOT);
                     })
                     .build());
 
@@ -31,6 +33,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.something_simple.something_simple_blocks"))
                     .displayItems((displayParameters, output) -> {
                         output.accept(PlayerBlocks.PLAYER_BLOCK);
+                        
+                        output.accept(PlayerBlocks.CHARRED_IRON_BLOCK);
                     })
                     .build());
 
